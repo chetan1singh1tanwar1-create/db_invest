@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deal 3</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<header>
+  <h1>Deal 3</h1>
+</header>
+<main>
+<div class="form-section">
+  <button onclick="addRow('dataTable')">Add Entry</button>
+</div>
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Amount CR</th>
+      <th>Amount DB</th>
+      <th>Duration</th>
+      <th>Maturity</th>
+      <th>Details</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+<tr><td>23-Apr-2025</td><td>200000</td><td></td><td>NA</td><td></td><td>Temp for 7 days</td><td><button onclick='deleteRow(this)'>Delete</button></td></tr>
+<tr><td>14-May-2025</td><td></td><td>100000</td><td></td><td></td><td>Recieved 1.9L from temp 2L</td><td><button onclick='deleteRow(this)'>Delete</button></td></tr>
+<tr><td>19-May-2025</td><td></td><td>100000</td><td></td><td></td><td class="green">Closed</td><td><button onclick='deleteRow(this)'>Delete</button></td></tr>
+
+  </tbody>
+</table>
+<a href="index.html">Back to Dashboard</a>
+</main>
+</body>
+</html>
